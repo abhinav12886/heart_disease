@@ -16,7 +16,7 @@ def home():
     return render_template('main.html')
 
 # Bind predict function to URL
-@app.route('/predict', methods =['POST'])
+@app.route('/predict', method =['POST'])
 def predict():
     
     # Put all form entries values in a list 
